@@ -26,6 +26,12 @@ const studentSchema = new Schema({
         type: Number,
         required: true
     },
+    minor:{
+      type:string
+    },
+    disable:{
+      type:string
+    },
     pincode:{
      type: Number,
       required: true 
