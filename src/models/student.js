@@ -27,10 +27,13 @@ const studentSchema = new Schema({
         required: true
     },
     minor:{
-      type:string
+      type:String
     },
     disable:{
-      type:string
+      type:String
+    },
+    adhar:{
+      type:String
     },
     pincode:{
      type: Number,

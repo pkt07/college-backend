@@ -23,6 +23,7 @@ exports.addStudent = async(req, res) => {
     joiningDate:req.body.joiningDate,
     minor:req.body.minor,
     disable:req.body.disable,
+    adhar:req.body.adhar,
     enrollment_id:joinYear+B.courseNotation+A.seq
   };
   var record = new Student(data);
