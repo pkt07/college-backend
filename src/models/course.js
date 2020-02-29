@@ -13,7 +13,10 @@ const courseSchema = new Schema({
    	fees:{
    		type: Number,
         required: true
-   	},
+	   },
+	   subject:{
+		type:Array
+	   },
    	availableSeat:{
    		type: Number,
         required: true
