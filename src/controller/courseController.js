@@ -8,8 +8,7 @@ exports.addCourse = (req, res) => {
     fees: req.body.fees,
     availableSeat: req.body.availableSeat,
     duration: req.body.duration,
-    courseNotation:req.body.courseNotation,
-    subject:req.body.subject
+    courseNotation:req.body.courseNotation
   };
   var record = new Course(data);
   record.save(function (error, data) {

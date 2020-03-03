@@ -24,6 +24,7 @@ exports.addStudent = async(req, res) => {
     minor:req.body.minor,
     disable:req.body.disable,
     adhar:req.body.adhar,
+    subject:req.body.subject,
     enrollment_id:joinYear+B.courseNotation+A.seq
   };
   var record = new Student(data);

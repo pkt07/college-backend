@@ -14,9 +14,7 @@ const courseSchema = new Schema({
    		type: Number,
         required: true
 	   },
-	   subject:{
-		type:Array
-	   },
+	  
    	availableSeat:{
    		type: Number,
         required: true

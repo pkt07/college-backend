@@ -39,6 +39,9 @@ const studentSchema = new Schema({
      type: Number,
       required: true 
     },
+    subject:{
+      type:Array
+       },
     sex:{
       type:String
     },
